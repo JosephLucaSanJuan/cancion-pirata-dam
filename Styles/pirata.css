@@ -1,0 +1,17 @@
+/*********** HOJA DE ESTILO CANCIÓN DEL PIRATA ********/
+        @font-face {
+                font-family: pirata; /* el nombre que yo quiera */
+                src: url("../Fonts/AlexBrush-Regular.ttf"); /* dónde esta el archivo */
+        }
+        body {background-image:url("../Images/96953825-seamless-pirate-theme-pattern-vector-background-with-skulls-anchors-bombs.jpg");
+              background-size:200px; /* puedo*/
+              /* background-repeat:repeat-y; *//* puedo controlar la repetición */
+              padding:0;
+              margin: 0;}
+        #container {background-color: aqua;
+                    width:80%;
+                    margin:auto;
+                    padding: 10px;
+                    text-align: center;
+                    font-family: pirata;
+                    font-size: 2em;}
